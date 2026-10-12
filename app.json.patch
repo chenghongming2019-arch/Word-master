@@ -1,0 +1,11 @@
+﻿*** Begin Patch
+*** Update File: C:\Users\cheng\OneDrive\Desktop\wordmaster\app.json
+@@ "pages": [
+-    "pages/login/login",
+-    "pages/home/home",
++    "pages/home/home",
+@@ "pages/testChoice/testChoice",
+-    "pages/testChoice/testChoice",
+-    "pages/admin/admin"
++    "pages/testChoice/testChoice"
+*** End Patch

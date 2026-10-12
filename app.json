@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/newWords/newWords",
+    "pages/flashcard/flashcard",
+    "pages/review/review",
+    "pages/permanent/permanent",
+    "pages/profile/profile",
+    "pages/importPage/importPage",
+    "pages/sentence/sentence",
+    "pages/testSpell/testSpell",
+    "pages/testChoice/testChoice"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FF6B6B",
+    "navigationBarTitleText": "单词小达人",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#FFF5F5",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF6B6B",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "学习",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/newWords/newWords",
+        "text": "新单词",
+        "iconPath": "icons/new.png",
+        "selectedIconPath": "icons/new-active.png"
+      },
+      {
+        "pagePath": "pages/review/review",
+        "text": "复习",
+        "iconPath": "icons/review.png",
+        "selectedIconPath": "icons/review-active.png"
+      },
+      {
+        "pagePath": "pages/permanent/permanent",
+        "text": "永久记忆",
+        "iconPath": "icons/star.png",
+        "selectedIconPath": "icons/star-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "icons/me.png",
+        "selectedIconPath": "icons/me-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
